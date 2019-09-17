@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 17px;
+  margin: 0;
+  background-color: #03a3df;
+  color: #44444;
+}
+
+h1 {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 40px;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+h2 {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 24px;
+}
+h3 {
+  font-family: "Arial Bold", sans-serif;
+  font-size: 17px;
+}
+
+img {
+  padding-top: 3px;
+}
+
+a {
+  color: #ecb722;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  background: url("https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true");
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: column wrap;
+  color: #FCEEC5;
+}
+
+nav  {
+  display: flex;
+  justify-content: start;
+  color: #ecb722;
+  background-color: #444444;
+  margin: 0;
+  justify-content: start;
+  align-items: center;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 150px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: column wrap;
+  background: #ecb722;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 20px 30px;
+  justify-content: center;
+}
+
+.grid-item-1 {
+  grid-area: 1 / 1 / 2 / 1;
+  display: flex;
+  justify-content: center;
+}
