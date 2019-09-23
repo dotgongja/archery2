@@ -54,6 +54,11 @@ nav  {
   height: 50px;
 }
 
+nav a {
+  padding: 5rem;
+  margin: 5rem;
+}
+
 .container {
   display: flex;
   justify-content: start;
